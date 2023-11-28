@@ -30,22 +30,18 @@ public class Main {
                 return;
             }
 
-            // Подсчет уникальных слов
             int uniqueWordsCount = countUniqueWords(inputText);
             System.out.println("Количество уникальных слов: " + uniqueWordsCount);
 
-            // Запись результатов в файл
             writeToFile("_______________________\n" +
                     "УНИКАЛЬНЫЕ СЛОВА\n" +
                     "_______________________\n" +
                     "Исходный текст: " + inputText + "\n" +
                     "Количество уникальных слов: " + uniqueWordsCount);
 
-            // Разделение текста на буквы
             String lettersResult = separateIntoLetters(inputText);
             System.out.println("Результат разделения на буквы: " + lettersResult);
 
-            // Запись количества букв в файл
             int lettersCount = countLetters(lettersResult);
             writeToFile("_______________________\n" +
                     "КОЛИЧЕСТВО БУКВ\n" +
@@ -54,7 +50,6 @@ public class Main {
                     "Результат: " + lettersResult + "\n" +
                     "Количество букв: " + lettersCount);
 
-            // Поиск слова
             String searchWord;
             int wordOccurrences;
             do {
@@ -63,7 +58,6 @@ public class Main {
                 try {
                     wordOccurrences = findWord(inputText, searchWord);
                     System.out.println("Результат поиска: Найдено " + wordOccurrences + " совпадений");
-                    // Запись результатов поиска в файл
                     writeToFile("_______________________\n" +
                             "ПОИСК СЛОВА\n" +
                             "_______________________\n" +
@@ -71,17 +65,17 @@ public class Main {
                             "Поиск по слову: " + searchWord + "\n" +
                             "Результат: Найдено " + wordOccurrences + " совпадений");
                 } catch (InvalidWordException e) {
-                    logger.error("Invalid word entered: " + e.getMessage());
+                    logger.error("Введено неверное слово: " + e.getMessage());
                 }
             } while (!isValidWord(searchWord));
 
         } catch (IOException | NumberFormatException e) {
-            logger.error("An error occurred: " + e.getMessage());
+            logger.error("Произошла ошибка: " + e.getMessage());
         } finally {
             try {
                 reader.close();
             } catch (IOException e) {
-                logger.error("Error closing the BufferedReader: " + e.getMessage());
+                logger.error("Ошибка закрытия BufferedReader: " + e.getMessage());
             }
         }
     }

@@ -1,0 +1,20 @@
+_______________________
+УНИКАЛЬНЫЕ СЛОВА
+_______________________
+Исходный текст: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+Количество уникальных слов: 61
+
+_______________________
+КОЛИЧЕСТВО БУКВ
+_______________________
+Исходный текст: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+Результат: L O R E M  I P S U M  I S  S I M P L Y  D U M M Y  T E X T  O F  T H E  P R I N T I N G  A N D  T Y P E S E T T I N G  I N D U S T R Y  L O R E M  I P S U M  H A S  B E E N  T H E  I N D U S T R Y S  S T A N D A R D  D U M M Y  T E X T  E V E R  S I N C E  T H E  S  W H E N  A N  U N K N O W N  P R I N T E R  T O O K  A  G A L L E Y  O F  T Y P E  A N D  S C R A M B L E D  I T  T O  M A K E  A  T Y P E  S P E C I M E N  B O O K  I T  H A S  S U R V I V E D  N O T  O N L Y  F I V E  C E N T U R I E S  B U T  A L S O  T H E  L E A P  I N T O  E L E C T R O N I C  T Y P E S E T T I N G  R E M A I N I N G  E S S E N T I A L L Y  U N C H A N G E D  I T  W A S  P O P U L A R I S E D  I N  T H E  S  W I T H  T H E  R E L E A S E  O F  L E T R A S E T  S H E E T S  C O N T A I N I N G  L O R E M  I P S U M  P A S S A G E S  A N D  M O R E  R E C E N T L Y  W I T H  D E S K T O P  P U B L I S H I N G  S O F T W A R E  L I K E  A L D U S  P A G E M A K E R  I N C L U D I N G  V E R S I O N S  O F  L O R E M  I P S U M
+Количество букв: 467
+
+_______________________
+ПОИСК СЛОВА
+_______________________
+Исходный: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+Поиск по слову: Lorem
+Результат: Найдено 4 совпадений
+
